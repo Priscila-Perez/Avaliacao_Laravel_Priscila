@@ -11,7 +11,10 @@
                 <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ route('admin.produtos') }}">Produtos</a>
+                <a class="nav-link" href="{{ route('admin.tabelioes') }}">Tabeliões</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ route('admin.certidoes') }}">Certidões</a>
             </li>
         </ul>
     </div>
